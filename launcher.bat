@@ -31,6 +31,6 @@
 ::
 ::
 ::978f952a14a936cc963da21a135fa983
-if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && exit
+rem if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && exit
 start launcherapi.exe
 npm start
