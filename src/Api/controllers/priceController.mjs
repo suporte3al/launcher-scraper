@@ -57,7 +57,7 @@ const scraper = async (productName) => {
     itemCountInList++
   }
 
-  await page.close()
+  await browser.close()
   return list
 }
 
